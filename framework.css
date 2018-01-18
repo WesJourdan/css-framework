@@ -57,6 +57,38 @@
   width: 100%;
 }
 
+.navbar {
+  background-color: #2b3038;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.navbar ul {
+  margin: 0;
+  text-align: center;
+}
+
+.navbar li {
+  display: inline-block;
+}
+
+.navbar li a {
+  line-height: 50px;
+  text-decoration: none;
+  color: #efeddc;
+  font-family: 'open sans', sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 0 18px;
+}
+
+.navbar a:hover {
+    color: #fdffea;
+    text-decoration: underline;
+}
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
